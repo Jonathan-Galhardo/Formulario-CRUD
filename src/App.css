@@ -11,13 +11,16 @@
   text-decoration: none;
 }
 
+html {
+  background-color: var(--color-light);
+}
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(179, 189, 248, 0.741);
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -26,6 +29,7 @@
 
 body {
   width: 100vw;
+  
 }
 
 form {
@@ -70,5 +74,9 @@ input, select, textarea, .radios, .checks {
     background: var(--color-primary-variant);
     color: var(--color-bg);
     border-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  h1 {
     color: var(--color-white);
   }

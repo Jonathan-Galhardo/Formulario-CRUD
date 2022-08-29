@@ -18,7 +18,9 @@ function App() {
 
   console.log('handleSubmit', formValues)
   return (
+
     <form onSubmit={cadastroSubmit}>
+      <h1>Cadastro de Clientes</h1>
       <input className='cpf' type='text' name='cpf' id='cpf' placeholder='CPF' onChange={handleInputChange} value={formValues.cpf || ''}></input>
       <input className='name' type='text' name='name' id='name' placeholder='Nome' onChange={handleInputChange} value={formValues.name || ''}></input>
       <input className="email" type="text" name="email" id="email" placeholder='E-mail' onChange={handleInputChange} value={formValues.email || ''}></input>
